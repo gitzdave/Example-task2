@@ -11,11 +11,13 @@ const medicalTreatmentListAsJson =
 '{ "treatCourseId": "11111" , "treatId": "00002" , "name": "1122", "type": "vaccination", "startDate": "01-10-20" },'+
 '{ "treatCourseId": "11111" , "treatId": "00002" , "name": "1122", "type": "vaccination", "startDate": "01-10-20" }]';
 
+const dataString = JSON.parse(medicalTreatmentListAsJson);
 
   return (
     <div>
       <h1>This is the list of patients: </h1>
      <MedicalTreatmentList  data = {medicalTreatmentListAsJson}/>
+
     </div>
   );
 }
