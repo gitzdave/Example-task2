@@ -17,10 +17,10 @@ const dataString = JSON.parse(medicalTreatmentListAsJson);
 
   return (
     <div>
-      <h1>This is the list of patients: </h1>
+      <h1>This is the list of patient Records: </h1>
      <MedicalTreatmentList  data = {medicalTreatmentListAsJson}/>
 
-     <h1>Search Results: </h1>
+     <h1>Search Results after filter: </h1>
      
      {dataString.filter(record => record.type =="covid").map(filteredRecord => (
         <li>
