@@ -10,8 +10,6 @@ var type =" Type is : vaccination"
 var treatCourseId = " Treatcourseid is : 1112"
 var startDate = " StartDate is :  02/12/21"
 
-
-
 export default function App() {
 const medicalTreatmentListAsJson =
 '[{ "treatCourseId": "11" , "treatId": "01" , "name": "David", "type": "inpatient", "startDate": "01-10-20" , "category":"major"},'
