@@ -6,7 +6,7 @@ h1, base {
   text-decoration-color: rgb(196, 255, 196);
   
 }
-p {
+p,li {
 
   font-family: Lato;
   background-color:antiquewhite;
