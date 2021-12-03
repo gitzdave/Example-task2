@@ -1,6 +1,14 @@
 import React from 'react';
 import "./style.css";
 import MedicalTreatmentList from './MedicalTreatmentList';
+import MedicalTreatment from "./MedicalTreatment";
+
+var patientName ="Dave"
+var category = "minor"
+var type ="vaccination"
+var treatCourseId = "1112"
+var startDate = "02/12/21"
+
 
 
 export default function App() {
@@ -17,10 +25,18 @@ const dataString = JSON.parse(medicalTreatmentListAsJson);
 
   return (
     <div>
-      <h1>This is the list of patient Records: </h1>
+  <h1>  Results of MedicalTreatment </h1>
+   <p> <MedicalTreatment  name={patientName}  /> </p>
+   <p> <MedicalTreatment  type={type}  /> </p>
+   <p> <MedicalTreatment  category={category}  /> </p>
+   <p> <MedicalTreatment  startDate={startDate}  /> </p>
+   <p> <MedicalTreatment  treatCourseId={treatCourseId}  /> </p>
+
+
+      <h1> List of patient Records: </h1>
      <MedicalTreatmentList  data = {medicalTreatmentListAsJson}/>
 
-     <h1>Search Results after filter: </h1>
+     <h1> Results after filter: </h1>
      
      {dataString.filter(record => record.type =="covid").map(filteredRecord => (
         <li>
