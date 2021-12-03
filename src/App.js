@@ -14,11 +14,11 @@ var startDate = " StartDate is :  02/12/21"
 
 export default function App() {
 const medicalTreatmentListAsJson =
-'[{ "treatCourseId": "11" , "treatId": "01" , "name": "David", "type": "vaccination", "startDate": "01-10-20" , "category":"major"},'
+'[{ "treatCourseId": "11" , "treatId": "01" , "name": "David", "type": "inpatient", "startDate": "01-10-20" , "category":"major"},'
 +
-'{ "treatCourseId": "12" , "treatId": "02" , "name": "Mary", "type": "covid", "startDate": "01-10-20","category":"major" },'+
-'{ "treatCourseId": "13" , "treatId": "03" , "name": "John", "type": "vaccination", "startDate": "01-10-20","category":"major" },'+
-'{ "treatCourseId": "14" , "treatId": "04" , "name": "Boris", "type": "Vaccination", "startDate": "01-10-20" ,"category":"major"}]';
+'{ "treatCourseId": "12" , "treatId": "02" , "name": "Mary", "type": "outpatient", "startDate": "01-10-20","category":"major" },'+
+'{ "treatCourseId": "13" , "treatId": "03" , "name": "John", "type": "outpatient", "startDate": "01-10-20","category":"major" },'+
+'{ "treatCourseId": "14" , "treatId": "04" , "name": "Boris", "type":"inpatient", "startDate": "01-10-20" ,"category":"major"}]';
 
 const dataString = JSON.parse(medicalTreatmentListAsJson);
 
