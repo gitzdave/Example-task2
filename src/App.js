@@ -3,11 +3,11 @@ import "./style.css";
 import MedicalTreatmentList from './MedicalTreatmentList';
 import MedicalTreatment from "./MedicalTreatment";
 
-var patientName ="Dave"
-var category = "minor"
-var type ="vaccination"
-var treatCourseId = "1112"
-var startDate = "02/12/21"
+var patientName =" Name is : Dave"
+var category = " Category is: minor"
+var type =" Type is : vaccination"
+var treatCourseId = " Treatcourseid is : 1112"
+var startDate = " StartDate is :  02/12/21"
 
 
 
