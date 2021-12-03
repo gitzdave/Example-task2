@@ -1,8 +1,15 @@
-h1, p,base {
+h1, base {
   font-family: Lato;
   background-color:aqua;
   text-align: center;
   text-decoration: dotted;
   text-decoration-color: rgb(196, 255, 196);
   
+}
+p {
+
+  font-family: Lato;
+  background-color:antiquewhite;
+  text-align: left;
+text-decoration:aqua;
 }

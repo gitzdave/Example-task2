@@ -26,7 +26,7 @@ const dataString = JSON.parse(medicalTreatmentListAsJson);
 
   return (
     <div>
-  <h1>  Results of MedicalTreatment </h1>
+  <h1>  Task 1: MedicalTreatment Results: </h1>
   <p> <MedicalTreatment  treatId={treatId}  /> </p>
    <p> <MedicalTreatment  name={patientName}  /> </p>
    <p> <MedicalTreatment  type={type}  /> </p>
@@ -35,7 +35,7 @@ const dataString = JSON.parse(medicalTreatmentListAsJson);
    <p> <MedicalTreatment  treatCourseId={treatCourseId}  /> </p>
 
 
-      <h1> List of patient Records: </h1>
+      <h1> Task 2: List of patient Records: </h1>
      <MedicalTreatmentList  data = {medicalTreatmentListAsJson}/>
 
      <h1> Results of patient Names after filter: </h1>
