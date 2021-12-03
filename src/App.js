@@ -24,7 +24,7 @@ const dataString = JSON.parse(medicalTreatmentListAsJson);
 
   return (
     <div>
-<p class="p1"> <img src="https://webstockreview.net/images/healthcare-clipart-healthcare-management-11.png" class="imageclass"/></p>
+<p class= "p1" > <img src="https://webstockreview.net/images/healthcare-clipart-healthcare-management-11.png" class="imageclass"/></p>
 
   <h1>  Task 1: MedicalTreatment Results: </h1>
   <p> <MedicalTreatment  treatId={treatId}  /> </p>
